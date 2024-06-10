@@ -16,6 +16,18 @@ Curso Full Stack React / Node de CILSA
 
 - Clase 4-5: Introducción a Bootstrap
 
-- Clase 6: Trabajo integrador    
+- Clase 6: **Trabajo integrador**    
 
+## Segunda parte del curso
+
+- Clase 7: Introducción a la Gestión de proyectos / Desarrollo de Webinar con empresas
+
+- Clase 8: Metodologías ágiles de Desarrollo / Desarrollo de webinar con empresas
+
+- Clase 9 - 10 - 11: Introducción a las bases de datos
+
+- Clase 12: **Trabajo integrador**
+  
 ---
+
+

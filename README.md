@@ -2,5 +2,20 @@
 
 Curso Full Stack React / Node de CILSA
 
-![image](https://github.com/eugenia1984/full-stack-react-node/assets/72580574/4b20ad78-0f93-44ae-92e5-7288d66339cd)
+---
 
+## Primera parte del curso
+
+- Clase 0: Introducción al curso, recomendaciones, nivelación
+
+- Clase 1: Introducción al Testing
+
+- Clase 2: Implementación de un proyecto en Hosting, Servicios en la nube
+
+- Clase 3: Introducción a Git
+
+- Clase 4-5: Introducción a Bootstrap
+
+- Clase 6: Trabajo integrador    
+
+---

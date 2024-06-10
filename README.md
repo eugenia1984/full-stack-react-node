@@ -30,4 +30,19 @@ Curso Full Stack React / Node de CILSA
   
 ---
 
+## Tercera parte del curso
+
+- Clase 13: Introducción a Node.js y Express.js
+
+- Clase 14: Introducción a React.js
+
+- Clase 15: Integración con Base de Datos
+
+- Clase 16: Desarrollo de Aplicaciones Full Stack con React.js y Node.js
+
+- Clase 17: Explicación del Trabajo Final y Desarrollo en Grupo
+
+- Clase 18: Presentación del Trabaj Final y Demostración
+
+---     
 

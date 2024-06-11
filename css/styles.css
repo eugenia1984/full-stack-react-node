@@ -92,11 +92,3 @@ svg {
   height: auto;
   max-width: 100%;
 }
-
-/* Variables */
-:root {
-  --bg-light: ;
-  --bg-dark: ;
-  --text-light: ;
-  --text-dark: ;
-}

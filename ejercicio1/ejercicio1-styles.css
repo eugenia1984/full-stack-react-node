@@ -35,11 +35,11 @@ main {
 form {
   padding: 2rem 1.5rem;
   border: 1px solid var(--primary-dark);
-  border-radius: 7px;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -ms-border-radius: 7px;
-  -o-border-radius: 7px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
   margin: 0.25rem;
 }
 
@@ -47,6 +47,32 @@ form {
   padding: 1rem 0rem;
 }
 
+label,
+input {
+  display: block;
+}
+
+label {
+  padding-bottom: 0.5rem;
+}
+
+input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid var(--primary);
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+input:focus {
+  outline: unset;
+  border: 2px solid var(--primary-dark);
+}
+
+/* Buttons */
 .send-btn-container {
   padding: 1rem 0rem;
   display: flex;
@@ -57,7 +83,7 @@ form {
   padding: 1rem 0rem;
   display: flex;
   justify-content: space-between;
-  max-width: 420px;
+  max-width: 460px;
   flex-direction: column;
   flex-wrap: wrap;
   margin: 0 auto;
@@ -68,4 +94,39 @@ form {
   .styles-btn-container {
     flex-direction: row;
   }
+}
+
+button {
+  border: none;
+  padding: 8px 12px;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+button[type="submit"],
+button[type="submit"]:visited {
+  background-color: var(--primary);
+  color: var(--text-light);
+}
+
+button[type="submit"]:hover {
+  background-color: var(--primary-dark);
+}
+
+button[type="button"],
+button[type="button"]:visited {
+  border: 2px solid var(--primary);
+  color: var(--primary);
+  min-width: 190px;
+}
+
+button[type="button"]:hover {
+  border: 2px solid var(--primary-dark);
+  color: var(--primary-dark);
 }

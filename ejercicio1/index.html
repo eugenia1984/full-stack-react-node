@@ -19,47 +19,57 @@
     <main>
       <form>
         <div class="form-label-input">
-          <label id="first-name">Nombre:</label>
+          <label for="first-name">Nombre:</label>
           <input
             type="text"
             required
             placeholder="Ingresa tu nombre aqui."
             name="first-name"
+            id="first-name"
+            maxlength="60"
           />
         </div>
         <div class="form-label-input">
-          <label id="last-name">Apellido:</label>
+          <label for="last-name">Apellido:</label>
           <input
             type="text"
             required
             placeholder="Ingresa tu apellido aqui."
             name="last-name"
+            id="last-name"
+            maxlength="60"
           />
         </div>
         <div class="form-label-input">
-          <label id="email">Correo electrónico:</label>
+          <label for="email">Correo electrónico:</label>
           <input
             type="email"
             required
             placeholder="Ingresa tu correo electrónico aqui."
             name="email"
+            id="email"
+            maxlength="60"
           />
         </div>
         <div class="form-label-input">
-          <label id="birth-date">Fecha de nacimiento:</label>
+          <label for="birth-date">Fecha de nacimiento:</label>
           <input
-            type="datetime"
+            type="date"
             required
             name="birth-date"
+            id="birth-date"
+            min="1911-01-01" max="2024-12-31"
           />
         </div>
         <div class="form-label-input">
-          <label id="country">País de residencia:</label>
+          <label for="country">País de residencia:</label>
           <input
             type="text"
             required
             placeholder="Ingresa tu país de residencia aqui."
             name="country"
+            id="country"
+            maxlength="60"
           />
         </div>
         <div class="send-btn-container">

@@ -27,6 +27,17 @@ footer a {
   letter-spacing: 1px;
 }
 
+.logo-icon {
+  padding: 0.10rem;
+  background-color: var(--text-light);
+  margin: 0.25rem 0.5rem;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
 /* Main */
 main {
   padding: 1rem;
@@ -49,7 +60,7 @@ main {
   align-items: center;
 }
 
-@media(min-width: 980px) {
+@media screen and (min-width: 980px) {
   #ejercicios {
     max-width: 1000px;
     justify-content: space-between;
@@ -57,7 +68,7 @@ main {
 }
 
 .card {
-  height: 280px;
+  height: 320px;
   width: 200px;
   border: 1px solid var(--secondary);
   border-radius: 7px;
@@ -77,7 +88,7 @@ main {
   justify-content: space-evenly;
 }
 
-button {
+.card-cta-btn a {
   padding: 6px 9px;
   border-radius: 7px;
   -webkit-border-radius: 7px;
@@ -86,26 +97,29 @@ button {
   -o-border-radius: 7px;
   text-transform: uppercase;
   border: 1px solid var(--primary);
+  text-decoration: none;
 }
 
-button:hover {
+.card-cta-btn a:hover {
   border: 1px solid var(--secondary);
 }
 
-button.code  {
+.card-cta-btn a.code,
+.card-cta-btn a.code:visited  {
   background-color: var(--text-light);
   color: var(--primary);
 }
 
-button.code:hover {
+.card-cta-btn a.code:hover {
   color: var(--secondary);
 }
 
-button.demo {
+.card-cta-btn a.demo,
+.card-cta-btn a.demo:visited {
   background-color: var(--primary);
   color: var(--text-light);
 }
 
-button.demo:hover {
+.card-cta-btn a.demo:hover {
   background-color: var(--secondary);
 }

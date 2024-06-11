@@ -1,0 +1,71 @@
+:root {
+  --primary: #fb3640;
+  --primary-dark: #c12b32;
+  --text-title: #a90448;
+  --text-dark: #13141a;
+  --text-light: #fff;
+}
+
+/* Header & Footer */
+header,
+footer {
+  text-align: center;
+  padding: 1rem 0.75rem;
+}
+
+footer a,
+footer a:visited {
+  color: var(--text-title);
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--primary);
+}
+
+/* Main */
+main {
+  max-width: 620px;
+  margin: 2rem auto 3rem;
+}
+
+/* Form */
+form {
+  padding: 2rem 1.5rem;
+  border: 1px solid var(--primary-dark);
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  margin: 0.25rem;
+}
+
+.form-label-input {
+  padding: 1rem 0rem;
+}
+
+.send-btn-container {
+  padding: 1rem 0rem;
+  display: flex;
+  justify-content: center;
+}
+
+.styles-btn-container {
+  padding: 1rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  max-width: 420px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  gap: 12px;
+}
+
+@media screen and (min-width: 480px) {
+  .styles-btn-container {
+    flex-direction: row;
+  }
+}

@@ -30,13 +30,18 @@ footer a {
 /* Main */
 main {
   padding: 1rem;
+  min-height: 92dvh;
+}
+
+#introduction {
+  text-align: center;
 }
 
 #ejercicios {
   max-width: 600px;
   margin: 2rem auto;
   display: flex;
-  gap: 12px;
+  gap: 18px;
   flex-direction: row;
   flex-wrap: wrap;
   align-content: center;
@@ -52,7 +57,7 @@ main {
 }
 
 .card {
-  height: 200px;
+  height: 280px;
   width: 200px;
   border: 1px solid var(--secondary);
   border-radius: 7px;
@@ -60,7 +65,11 @@ main {
   -moz-border-radius: 7px;
   -ms-border-radius: 7px;
   -o-border-radius: 7px;
-  padding: 0.5rem;
+  padding: 0.75rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .card-cta-btn {

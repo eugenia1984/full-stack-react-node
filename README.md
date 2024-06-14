@@ -1,10 +1,12 @@
 # Full Stack - React.js & Node.js
 
-Curso Full Stack React / Node de CILSA
+Bienvenidos a mis ejercicios de práctica del **Curso Full Stack React / Node** de CILSA.
 
 ---
 
-## Primera parte del curso
+## ¿Qué se va a ver en el mismo?
+
+### Primera parte del curso
 
 - Clase 0: Introducción al curso, recomendaciones, nivelación
 
@@ -18,7 +20,7 @@ Curso Full Stack React / Node de CILSA
 
 - Clase 6: **Trabajo integrador**    
 
-## Segunda parte del curso
+### Segunda parte del curso
 
 - Clase 7: Introducción a la Gestión de proyectos / Desarrollo de Webinar con empresas
 
@@ -30,7 +32,7 @@ Curso Full Stack React / Node de CILSA
   
 ---
 
-## Tercera parte del curso
+### Tercera parte del curso
 
 - Clase 13: Introducción a Node.js y Express.js
 
@@ -46,9 +48,9 @@ Curso Full Stack React / Node de CILSA
 
 ---     
 
-# Ejercicios
+## Ejercicios
 
-Formulario con HTML5, CSS3 y JavaScript
+- **Primer ejercicio**: Formulario con HTML5, CSS3 y JavaScript que se puede ver en: [https://eugenia1984.github.io/full-stack-react-node/](https://eugenia1984.github.io/full-stack-react-node/)
 
 
 ---

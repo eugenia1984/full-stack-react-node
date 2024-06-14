@@ -1,0 +1,201 @@
+:root {
+  --primary: #fb3640;
+  --primary-dark: #c12b32;
+  --secondary: #ffff00;
+  --secondary-dark: #cfcf0e;
+  --secondary-light: #dddd9d;
+  --text-title: #a90448;
+  --text-dark: #13141a;
+  --text-light: #fff;
+  --bg-dark: #13141a;
+  --bg-dark-light: #20222c;
+  --bg-dark-lighter: #3437472c;
+}
+
+/********* Body *******/
+body.dark {
+  background: var(--bg-dark-light);
+}
+
+/******** Header & Footer ********/
+header,
+footer {
+  text-align: center;
+  padding: 1rem 0.75rem;
+}
+
+footer a,
+footer a:visited {
+  color: var(--text-title);
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--primary);
+}
+
+header.dark ,
+footer.dark  {
+  background: var(--bg-dark);
+  color: var(--text-light);
+}
+
+footer.dark  a,
+footer.dark a:visited {
+  color: var(--secondary);
+}
+
+footer.dark a:hover {
+  color: var(--secondary-dark);
+}
+
+/*********** Main **************/
+main {
+  max-width: 620px;
+  margin: 2rem auto 3rem;
+}
+
+main.dark {
+  background: var(--bg-dark-light);
+}
+
+/************ Form ************/
+form {
+  padding: 2rem 1.5rem;
+  border: 1px solid var(--primary-dark);
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  margin: 0.25rem;
+}
+
+main.dark form {
+  border: 1px solid var(--secondary);
+}
+
+.form-label-input {
+  padding: 1rem 0rem;
+}
+
+label,
+input {
+  display: block;
+}
+
+label {
+  padding-bottom: 0.5rem;
+}
+
+input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid var(--primary);
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+main.dark input {
+  border: 1px solid var(--secondary);
+}
+
+input:focus {
+  outline: unset;
+  border: 2px solid var(--primary-dark);
+}
+
+main.dark input:focus {
+  border: 2px solid var(--secondary-dark);
+}
+
+main.dark label {
+  color: var(--text-light);
+}
+
+
+main.dark input {
+  background-color: var(--bg-dark-lighter);
+  color: var(--text-light);
+}
+
+/************ Buttons **************/
+.send-btn-container {
+  padding: 1rem 0rem;
+  display: flex;
+  justify-content: center;
+}
+
+.styles-btn-container {
+  padding: 1rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  max-width: 460px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  gap: 12px;
+}
+
+@media screen and (min-width: 480px) {
+  .styles-btn-container {
+    flex-direction: row;
+  }
+}
+
+button {
+  border: none;
+  padding: 8px 12px;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+button[type="submit"],
+button[type="submit"]:visited {
+  background-color: var(--primary);
+  color: var(--text-light);
+}
+
+main.dark button[type="submit"],
+main.dark button[type="submit"]:visited {
+  background-color: var(--secondary);
+  color: var(--text-dark);
+}
+
+button[type="submit"]:hover {
+  background-color: var(--primary-dark);
+}
+
+main.dark button[type="submit"]:hover {
+  background-color: var(--secondary-dark);
+}
+
+button[type="button"],
+button[type="button"]:visited {
+  border: 2px solid var(--primary);
+  color: var(--text-dark);
+  min-width: 190px;
+}
+
+main.dark button[type="button"],
+main.dark button[type="button"]:visited {
+  border: 2px solid var(--secondary);
+  color: var(--text-dark);
+  background: var(--secondary-light);
+}
+
+button[type="button"]:hover {
+  border: 2px solid var(--primary-dark);
+  color: var(--primary-dark);
+}

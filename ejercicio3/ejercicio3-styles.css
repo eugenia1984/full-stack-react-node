@@ -199,3 +199,10 @@ button[type="button"]:hover {
   border: 2px solid var(--primary-dark);
   color: var(--primary-dark);
 }
+
+/** Error message ***/
+.error-message {
+  color: red;
+  font-size: 0.875em;
+  display: none;
+}

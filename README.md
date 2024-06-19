@@ -10,7 +10,7 @@ Bienvenidos a mis ejercicios de práctica del **Curso Full Stack React / Node** 
 
 - Clase 0: Introducción al curso, recomendaciones, nivelación
 
-- Clase 1: Introducción al Testing
+- Clase 1: [Introducción al Testing](https://github.com/eugenia1984/full-stack-react-node/blob/main/teoria/creacion-software-testing.md)
 
 - Clase 2: Implementación de un proyecto en Hosting, Servicios en la nube
 

@@ -52,5 +52,12 @@ Bienvenidos a mis ejercicios de práctica del **Curso Full Stack React / Node** 
 
 - **Primer ejercicio**: Formulario con HTML5, CSS3 y JavaScript que se puede ver en: [https://eugenia1984.github.io/full-stack-react-node/](https://eugenia1984.github.io/full-stack-react-node/)
 
+- **Segundo ejercicio**: A partir del formulario elaborado para la tarea 1, se pide:
+
+-Detallar los pasos que realizan para poder cargar el mismo.
+
+-Indicar para cada campo cuales son los valores válidos y cuales inválidos. ¿Se realiza esa validación de alguna forma?
+
+-Realizar una exploración del formulario y verificar si mediante el lector de pantalla NVDA pueden acceder a cada campo mediante la tecla TAB y completa el mismo. ¿Hay algún campo o acción que no resulte accesible?
 
 ---

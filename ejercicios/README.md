@@ -1,6 +1,6 @@
 # Ejercicios
 
-## Ejercicio 2:
+## [Ejercicio 2](https://github.com/eugenia1984/full-stack-react-node/blob/main/ejercicios/ejercicio2.md):
 
  partir del formulario elaborado para la tarea 1, se pide:
 

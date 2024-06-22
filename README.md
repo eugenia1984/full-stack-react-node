@@ -62,4 +62,7 @@ Bienvenidos a mis ejercicios de práctica del **Curso Full Stack React / Node** 
 
 [Resolución acá](https://github.com/eugenia1984/full-stack-react-node/blob/main/ejercicios/ejercicio2.md)
 
+
+## Tercer ejercicio
+
 ---

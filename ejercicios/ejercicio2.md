@@ -48,7 +48,7 @@ Se puede ir de input en input por medio de la tecla tab.
 
 2. **Comenzar con NVDA**: activar el lector de pantalla NVDA / Screen Reader.
 
-3. **Navegar el formulario**: con la tecla `TAB` para navegar por los elementos del formulario (de in input hacia otro input, porque el formulario tieen id y form en las etiquetas `label`e `input`para relacionarlas). 
+3. **Navegar el formulario**: con la tecla `TAB` para navegar por los elementos del formulario (de in input hacia otro input, porque el formulario tiene id y form en las etiquetas `label`e `input`para relacionarlas). 
 
 
 ---

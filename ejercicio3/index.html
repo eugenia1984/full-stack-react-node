@@ -58,6 +58,7 @@
             placeholder="Ingresa tu nombre aqui."
             name="first-name"
             id="first-name"
+            minlength="2"
             maxlength="60"
           />
           <p class="error-message" id="first-name-error"></p>
@@ -70,6 +71,7 @@
             placeholder="Ingresa tu apellido aqui."
             name="last-name"
             id="last-name"
+            minlength="2"
             maxlength="60"
           />
           <p class="error-message" id="last-name-error"></p>
@@ -93,8 +95,9 @@
             required
             name="birth-date"
             id="birth-date"
-            min="1911-01-01" max="2024-12-31"
+            min="1911-01-01" 
           />
+          <p class="error-message" id="birth-date-error"></p>
         </div>
         <div class="form-label-input">
           <label for="country">País de residencia:</label>
@@ -105,6 +108,7 @@
             name="country"
             id="country"
             maxlength="60"
+            minlength="2"
           />
           <p class="error-message" id="country-error"></p>
         </div>

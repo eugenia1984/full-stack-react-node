@@ -12,21 +12,53 @@ const header = d.querySelector("header");
 const main = d.querySelector("main");
 const footer = d.querySelector("footer");
 
-
 /* Constants to check form data */
 const form = d.querySelector("form");
 const firstNameInput = d.getElementById("first-name");
 const lastNameInput = d.getElementById("last-name");
 const emailInput = d.getElementById("email");
 const countryInput = d.getElementById("country");
+const birthDateInput = d.getElementById("birth-date");
 
+/* Error messages */
+const errorMessages = {
+  "first-name-error":
+    "El nombre debe ser de al menos 2 caracteres y con un máximo de 60.",
+  "last-name-error":
+    "El apellido debe ser de al menos 2 caracteres y con un máximo de 60.",
+  "email-error":
+    "El correo electrónico debe ser válido y seguir el formato: usuario@dominio.extensión.",
+  "country-error":
+    "El país de residencia debe ser de al menos 2 caracteres y con un máximo de 60.",
+  "birth-date-error":
+    "La fecha de nacimiento debe ser entre el 01 de Enero de 1911 y hoy.",
+};
 
 /* Inputs validation */
 const validateInput = (input, pattern, errorElementId) => {
   const value = input.value.trim();
   const errorElement = d.getElementById(errorElementId);
+
   if (!pattern.test(value)) {
-    errorElement.textContent = "Datos incorrectos";
+    errorElement.textContent = errorMessages[errorElementId];
+    errorElement.style.display = "block";
+    return false;
+  } else {
+    errorElement.textContent = "";
+    errorElement.style.display = "none";
+    return true;
+  }
+};
+
+/* Date validation */
+const validateDate = (input, errorElementId) => {
+  const value = new Date(input.value);
+  const minDate = new Date("1911-01-01");
+  const maxDate = new Date();
+  const errorElement = d.getElementById(errorElementId);
+
+  if (value < minDate || value > maxDate) {
+    errorElement.textContent = errorMessages[errorElementId];
     errorElement.style.display = "block";
     return false;
   } else {
@@ -42,8 +74,9 @@ const handleSubmit = (event) => {
   const isLastNameValid = validateInput(lastNameInput, namePattern, "last-name-error");
   const isEmailValid = validateInput(emailInput, emailPattern, "email-error");
   const isCountryValid = validateInput(countryInput, namePattern, "country-error");
+  const isBirthDateValid = validateDate(birthDateInput, "birth-date-error");
 
-  if (isFirstNameValid && isLastNameValid && isEmailValid && isCountryValid) {
+  if (isFirstNameValid && isLastNameValid && isEmailValid && isCountryValid && isBirthDateValid) {
     fetch("https://formsubmit.co/ajax/costamariaeugenia1@gmail.com", {
       method: "POST",
       headers: {
@@ -54,7 +87,7 @@ const handleSubmit = (event) => {
         "Apellido": lastNameInput.value,
         "Correo electrónico": emailInput.value,
         "País de residencia": countryInput.value,
-        "Fecha de nacimiento": d.getElementById("birth-date").value
+        "Fecha de nacimiento": birthDateInput.value
       })
     })
       .then(response => response.json())
@@ -78,6 +111,7 @@ const addValidationListeners = () => {
   lastNameInput.addEventListener("input", () => validateInput(lastNameInput, namePattern, "last-name-error"));
   emailInput.addEventListener("input", () => validateInput(emailInput, emailPattern, "email-error"));
   countryInput.addEventListener("input", () => validateInput(countryInput, namePattern, "country-error"));
+  birthDateInput.addEventListener("input", () => validateDate(birthDateInput, "birth-date-error"));
 };
 
 const addStyleToggleListeners = () => {

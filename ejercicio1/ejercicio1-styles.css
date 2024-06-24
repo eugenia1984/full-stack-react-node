@@ -29,6 +29,7 @@ footer a:hover {
 main {
   max-width: 620px;
   margin: 2rem auto 3rem;
+  min-height: 90vh;
 }
 
 /* Form */

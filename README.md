@@ -9,13 +9,13 @@ Bienvenidos a mis ejercicios de práctica del **Curso Full Stack React / Node** 
 
 ### Primera parte del curso
 
-- Clase 0: Introducción al curso, recomendaciones, nivelación
+<img width="28" height="28" src="https://img.icons8.com/emoji/28/check-mark-button-emoji.png" alt="check mark"/> Clase 0: Introducción al curso, recomendaciones, nivelación
 
-- Clase 1: [Introducción al Testing](https://github.com/eugenia1984/full-stack-react-node/blob/main/teoria/creacion-software-testing.md)
+<img width="28" height="28" src="https://img.icons8.com/emoji/28/check-mark-button-emoji.png" alt="check mark"/>  Clase 1: Introducción al Testing
 
-- Clase 2: Implementación de un proyecto en Hosting, Servicios en la nube
+<img width="28" height="28" src="https://img.icons8.com/emoji/28/check-mark-button-emoji.png" alt="check mark"/>  Clase 2: Implementación de un proyecto en Hosting, Servicios en la nube
 
-- Clase 3: Introducción a Git
+<img width="28" height="28" src="https://img.icons8.com/emoji/28/check-mark-button-emoji.png" alt="check mark"/>  Clase 3: Introducción a Git
 
 - Clase 4-5: Introducción a Bootstrap
 
@@ -61,9 +61,19 @@ Bienvenidos a mis ejercicios de práctica del **Curso Full Stack React / Node** 
 
 3. Realizar una exploración del formulario y verificar si mediante el lector de pantalla NVDA pueden acceder a cada campo mediante la tecla TAB y completa el mismo. ¿Hay algún campo o acción que no resulte accesible?
 
-[Resolución acá](https://github.com/eugenia1984/full-stack-react-node/blob/main/ejercicios/ejercicio2.md)
+-> [En este link pueden ver la resolución del ejercicio](https://eugenia1984.github.io/full-stack-react-node/ejercicio4/index.html)
 
 
-## Tercer ejercicio
+- **Tercer ejercicio**: Los y las invitamos a realizar una primera actividad, para comenzar deben:
+
+1. Buscar 2 servicios de hosting en internet
+
+2. Identificar si es gratuito y en ese caso que limitaciones tiene o si ofrece un modelo de pago por servicios.
+
+3. Si no es gratuito o corresponde a una empresa, identificar si se trata de una empresa nacional o extranjera y en qué moneda se realizan los pagos.
+
+4. Identificar los servicios ofrecidos por la empresa en función de los criterios mencionados tomando en cuenta si la contratación es mensual o anual
+
+5. Por último, realizar una comparación entre los dos servicios explorados.
 
 ---

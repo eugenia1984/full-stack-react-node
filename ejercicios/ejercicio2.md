@@ -24,7 +24,7 @@ Si no están completos todos los campos, no se puede enviar el formulario, y si 
 
 ### 2 - Indicar para cada campo cuales son los valores válidos y cuales inválidos. ¿Se realiza esa validación de alguna forma?
 
-- Todos los campos son **obligatorios** porque tiene el atributo **required**.
+- Todos los campos son **obligatorios** porque tienen el atributo **required**.
 
 1. En el "input" - "Nombre" se permite ingresar de 2 hasta 60 caracteres, es obligatorio, no puede estar vacío.
 

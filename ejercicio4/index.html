@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 4 | Maria Eugenia Costa</title>
+    <link
+      rel="shortcut icon"
+      href="https://img.icons8.com/stickers/32/my-computer.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./../css/styles.css" />
+    <link rel="stylesheet" href="./ejercicio4-styles.css" />
+    <meta
+      name="description"
+      content="Hola bienvenidos a mi practica de HTML5, CSS3 y JavaScript, soy María Eugenia Costa, Desarrolladora Front End, aprendiendo Back End"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="https://img.icons8.com/stickers/32/my-computer.png"
+    />
+    <meta name="theme-color" content="a90448" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      name="twitter:title"
+      content="Ejercicio 4 | Maria Eugenia Costa"
+    />
+    <meta
+      property="og:description"
+      name="twitter:description"
+      content="Hola bienvenidos a mi practica de HTML5, CSS3 y JavaScript, soy María Eugenia Costa, Desarrolladora Front End, aprendiendo Back End"
+    />
+    <meta
+      property="og:image"
+      name="twitter:image"
+      content="https://img.icons8.com/stickers/32/my-computer.png"
+    />
+    <meta
+      property="og:url"
+      name="twitter:url"
+      content="https://eugenia1984.github.io/full-stack-react-node/ejercicio4/index.html"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Ejercicio 4</h1>
+    </header>
+    <main>
+      <section>
+        <p>A partir del formulario elaborado para la tarea 1, se pide:</p>
+        <h2>1 - Detallar los pasos que realizan para poder cargar el mismo</h2>
+      </section>
+      <section>
+        <h2>
+          2 - Indicar para cada campo cuales son los valores válidos y cuales
+          inválidos. ¿Se realiza esa validación de alguna forma?
+        </h2>
+        <p>
+          - Todos los campos son <strong>obligatorios</strong> porque tienen el
+          atributo <strong>required</strong>.
+        </p>
+        <ol>
+          <li>
+            En el <strong>input</strong> - <strong>Nombre</strong> se permite
+            ingresar de 2 hasta 60 caracteres, es obligatorio, no puede estar
+            vacío.
+          </li>
+          <li>
+            En el <strong>input</strong> - <strong>Apellido</strong> se permite
+            ingresar de 2 hasta 60 caracteres, es obligatorio, no puede estar
+            vacío.
+          </li>
+          <li>
+            En el <strong>input</strong> -
+            <strong>Correo electronico</strong> se permite ingresa un correo que
+            tenga el nombre del correo, el "@", luego el dominio, a continuación
+            el "." y luego entre 2 a 4 caracteres. Es obligatorio, no puede
+            estar vacío.
+          </li>
+          <li>
+            En el <strong>input</strong> -
+            <strong>Fecha de nacimiento</strong> se permite ingresar una fecha
+            de nacimiento que esté estre el 1ro de Enero de 1911 hasta el día en
+            que se completa el formulario. Es obligatorio, no puede estar vacío.
+          </li>
+          <li>
+            En el <strong>input</strong> -
+            <strong>Pais de residencia</strong> se permite ingresar de 2 hasta
+            60 caracteres, es obligatorio, no puede estar vacío.
+          </li>
+        </ol>
+        <p>
+          Si no están completos todos los campos, no se puede enviar el
+          formulario, y si no están validados tampoco.
+        </p>
+      </section>
+      <section>
+        <h2>
+          3 - Realizar una exploración del formulario y verificar si mediante el
+          lector de pantalla NVDA pueden acceder a cada campo mediante la tecla
+          TAB y completa el mismo. ¿Hay algún campo o acción que no resulte
+          accesible?
+        </h2>
+        <p>Se puede ir de input en input por medio de la tecla tab.</p>
+        <ol>
+          <li>
+            <strong
+              >Abrir el
+              <a
+                href="https://eugenia1984.github.io/full-stack-react-node/ejercicio3/index.html"
+                target="_blank"
+                >formulario</a
+              >: </strong
+            >para poder ver el formulario.
+          </li>
+          <li><strong>Comenzar con NVDA:</strong> activar el lector de pantalla NVDA / Screen Reader.</li>
+          <li><strong>Navegar el formulario</strong>: con la tecla <strong>TAB</strong> para navegar por los elementos del formulario (de in input hacia otro input, porque el formulario tiene id y form en las etiquetas <strong>label</strong>e <strong>input</strong> para relacionarlas).</li>
+        </ol>
+      </section>
+    </main>
+    <footer>
+      <p>
+        Práctica realizada por
+        <a
+          href="https://www.linkedin.com/in/maria-eugenia-costa/"
+          target="_blank"
+          >María Eugenia Costa</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>

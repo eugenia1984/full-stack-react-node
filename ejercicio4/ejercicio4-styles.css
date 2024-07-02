@@ -1,0 +1,47 @@
+:root {
+  --secondary: #fb3640;
+  --primary: #a90448;
+  --text-dark: #13141a;
+  --text-light: #fff;
+}
+
+header,
+footer {
+  text-align: center;
+  background-color: var(--primary);
+  padding: 2rem 1.75rem;
+}
+
+header h1 {
+  color: var(--text-light);
+}
+
+footer p,
+footer a,
+footer a:hover {
+  color: var(--text-light);
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+main {
+  padding: 2.75rem 2.25rem;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+ol {
+  padding-left: 1.25rem;
+}
+
+li {
+  padding-bottom: 0.75rem;
+}

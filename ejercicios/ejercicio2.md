@@ -6,15 +6,15 @@
 
 1. **Abrir la página web**: ingresar en la página donde está el [formulario - https://eugenia1984.github.io/full-stack-react-node/ejercicio3/index.html](https://eugenia1984.github.io/full-stack-react-node/ejercicio3/index.html)
 
-2. **Rellenar los campos - completar formualrio**:
+2. **Rellenar los campos - completar formulario**:
 
 -En el primer "input" - "Nombre" se completa con el nombre
 
--En el segundo "input" - "Apellido" se p completa con el apellido
+-En el segundo "input" - "Apellido" se completa con el apellido
 
--En el tercer "input" - "Correo electronico" se compelta con el correo electronico.
+-En el tercer "input" - "Correo electronico" se completa con el correo electronico.
 
--En el cuarto "input" - "Fecha de nacimiento" se pcompleta con la fecha de nacimiento
+-En el cuarto "input" - "Fecha de nacimiento" se completa con la fecha de nacimiento
 
 -En el quinto "input" - "Pais de residencia" se completa con el pais de residencia
 

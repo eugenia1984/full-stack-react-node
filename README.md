@@ -4,6 +4,7 @@ Bienvenidos a mis ejercicios de práctica del **Curso Full Stack React / Node** 
 
 ---
 
+
 ## ¿Qué se va a ver en el mismo?
 
 ### Primera parte del curso

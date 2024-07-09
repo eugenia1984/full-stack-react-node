@@ -48,11 +48,16 @@ main {
   text-align: center;
 }
 
+#introduction h2 {
+  max-width: 800px;
+  margin: 1rem auto;
+}
+
 #ejercicios {
   max-width: 600px;
   margin: 2rem auto;
   display: flex;
-  gap: 18px;
+  gap: 16px;
   flex-direction: row;
   flex-wrap: wrap;
   align-content: center;
@@ -62,14 +67,14 @@ main {
 
 @media screen and (min-width: 980px) {
   #ejercicios {
-    max-width: 1000px;
+    max-width: 890px;
     justify-content: space-between;
   }
 }
 
 .card {
   height: 410px;
-  width: 200px;
+  width: 216px;
   border: 1px solid var(--secondary);
   border-radius: 7px;
   -webkit-border-radius: 7px;
@@ -81,6 +86,13 @@ main {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+@media screen and (min-width: 980px) {
+  .card {
+    width: 278px;
+    height: 360px;
+  }
 }
 
 .card-cta-btn {

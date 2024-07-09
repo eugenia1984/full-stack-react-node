@@ -76,4 +76,14 @@ Bienvenidos a mis ejercicios de práctica del **Curso Full Stack React / Node** 
 
 5. Por último, realizar una comparación entre los dos servicios explorados.
 
+- **Cuarto ejercicio**: 
+
+1. Retomar el ejercicio del formulario de registro de las primeras clases y adaptarlo utilizando Bootstrap.
+
+2. Deberán realizar las validaciones correspondientes y asegurar los campos obligatorios. 
+
+3. Explorar la posibilidad de pensar en 3 resoluciones: notebook, Tablet y celular de 7”
+
+
+
 ---

@@ -5,9 +5,9 @@ Bienvenidos a mis ejercicios de práctica del **Curso Full Stack React / Node** 
 ---
 
 
-## ¿Qué se va a ver en el mismo?
+## <img width="34" height="34" src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/34/external-note-pad-user-interface-flatart-icons-flat-flatarticons.png" alt="note pad"/> ¿Qué se va a ver en el mismo?
 
-### Primera parte del curso
+### <img width="30" height="30" src="https://img.icons8.com/clouds/30/1.png" alt="1"/> Primera parte del curso
 
 <img width="28" height="28" src="https://img.icons8.com/emoji/28/check-mark-button-emoji.png" alt="check mark"/> Clase 0: Introducción al curso, recomendaciones, nivelación
 
@@ -21,7 +21,7 @@ Bienvenidos a mis ejercicios de práctica del **Curso Full Stack React / Node** 
 
 - Clase 6: **Trabajo integrador**    
 
-### Segunda parte del curso
+### <img width="30" height="30" src="https://img.icons8.com/clouds/30/2--v2.png" alt="2"/> Segunda parte del curso
 
 - Clase 7: Introducción a la Gestión de proyectos / Desarrollo de Webinar con empresas
 
@@ -33,7 +33,7 @@ Bienvenidos a mis ejercicios de práctica del **Curso Full Stack React / Node** 
   
 ---
 
-### Tercera parte del curso
+### <img width="30" height="30" src="https://img.icons8.com/clouds/30/3.png" alt="3"/> Tercera parte del curso
 
 - Clase 13: Introducción a Node.js y Express.js
 
@@ -49,9 +49,11 @@ Bienvenidos a mis ejercicios de práctica del **Curso Full Stack React / Node** 
 
 ---     
 
-## Ejercicios
+## <img width="38" height="38" src="https://img.icons8.com/color/38/laptop--v1.png" alt="laptop"/>  Ejercicios
 
 - **Primer ejercicio**: Formulario con HTML5, CSS3 y JavaScript que se puede ver en: [https://eugenia1984.github.io/full-stack-react-node/](https://eugenia1984.github.io/full-stack-react-node/)
+
+---
 
 - **Segundo ejercicio**: A partir del formulario elaborado para la tarea 1, se pide:
 
@@ -63,6 +65,7 @@ Bienvenidos a mis ejercicios de práctica del **Curso Full Stack React / Node** 
 
 -> [En este link pueden ver la resolución del ejercicio](https://eugenia1984.github.io/full-stack-react-node/ejercicio4/index.html)
 
+---
 
 - **Tercer ejercicio**: Los y las invitamos a realizar una primera actividad, para comenzar deben:
 
@@ -76,6 +79,10 @@ Bienvenidos a mis ejercicios de práctica del **Curso Full Stack React / Node** 
 
 5. Por último, realizar una comparación entre los dos servicios explorados.
 
+-> [En este link pueden ver la resolución del ejercicio](https://eugenia1984.github.io/full-stack-react-node/ejercicio5/index.html)
+
+---
+
 - **Cuarto ejercicio**: 
 
 1. Retomar el ejercicio del formulario de registro de las primeras clases y adaptarlo utilizando Bootstrap.
@@ -84,6 +91,6 @@ Bienvenidos a mis ejercicios de práctica del **Curso Full Stack React / Node** 
 
 3. Explorar la posibilidad de pensar en 3 resoluciones: notebook, Tablet y celular de 7”
 
-
+-> [En este link pueden ver la resolución del ejercicio](https://eugenia1984.github.io/full-stack-react-node/ejercicio6/index.html)
 
 ---

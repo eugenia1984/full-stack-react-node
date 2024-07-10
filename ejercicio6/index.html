@@ -53,50 +53,55 @@
 </head>
 </head>
 <body>
-  <header class="sticky-sm-top py-4 px-2">
-    <h1 class="text-center">Ejercicio 6 | Formulario con Bootstrap</h1>
+  <header class="fixed-sm-top py-4 px-2 bg-success" style="--bs-bg-opacity: .8;">
+    <h1 class="text-center text-white">Ejercicio 6 | Formulario con Bootstrap</h1>
   </header>
-  <main class="container">
-    <section class="row p-2">
+  <main class="container pt-5">
+    <section class="row px-2 pt-3">
       <h2 class="col text-center">Formulario de datos personales</h2>
     </section>
     <section class="row">
       <div class="col col-lg-8 mx-auto my-5">
-        <form>
-          <div class="mb-3">
+        <form class="row bg-success py-5 px-2" style="--bs-bg-opacity: .1;">
+          <div class="col-12 col-md-6 mb-4">
             <label for="inputFirstName" class="form-label">Nombre:</label>
-            <input type="text" class="form-control" id="inputFirstName" aria-describedby="firstNameHelp" required>
-            <div id="firstNameHelp" class="form-text">Ingresa tu nombre en la casilla de arriba</div>
+            <input type="text" class="form-control form-control-lg" id="inputFirstName" aria-describedby="firstNameHelp" required minlength="3" maxlength="50">
+            <div id="firstNameHelp" class="form-text">Ingresa tu nombre en la casilla de arriba. Mínimo 3 caracteres y máximo 50.</div>
           </div>
-          <div class="mb-3">
+          <div class="col-12 col-md-6 mb-4">
             <label for="inputLastName" class="form-label">Apellido:</label>
-            <input type="text" class="form-control" id="inputLastName" aria-describedby="nameHelp" required>
-            <div id="nameHelp" class="form-text">Ingresa tu apellido en la casilla de arriba</div>
+            <input type="text" class="form-control form-control-lg" id="inputLastName" aria-describedby="nameHelp" required minlength="3" maxlength="50">
+            <div id="nameHelp" class="form-text">Ingresa tu apellido en la casilla de arriba. Mínimo 3 caracteres y máximo 50.</div>
           </div>
-          <div class="mb-3">
-            <label for="inputEmail1" class="form-label">Correo electrónico:</label>
-            <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp" required>
-            <div id="emailHelp" class="form-text">Ingresa tu correo electrónico en al casilla de arriba.</div>
+          <div class="mb-4">
+            <label for="inputEmail" class="form-label">Correo electrónico:</label>
+            <input type="email" class="form-control form-control-lg" id="inputEmail" aria-describedby="emailHelp" required>
+            <div id="emailHelp" class="form-text">Ingresa tu correo electrónico en la casilla de arriba.</div>
           </div>
-          <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+          <div class="col-12 col-md-6 mb-4">
+            <label for="inputBirthDate" class="form-label">Fecha de nacimiento:</label>
+            <input type="text" class="form-control form-control-lg" id="inputBirthDate" aria-describedby="birthDateHelp" required>
+            <div id="birthDateHelp" class="form-text">Ingresa tu fecha de nacimiento en la casilla de arriba.</div>
           </div>
-          <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          <div class="col-12 col-md-6 mb-4">
+            <label for="inputNationality" class="form-label">Nacionalidad:</label>
+            <input type="text" class="form-control form-control-lg" id="inputNationality" aria-describedby="nationalityHelp" required minlength="3" maxlength="50">
+            <div id="nationalityHelp" class="form-text">Ingresa tu nacionalidad en la casilla de arriba. Mínimo 3 caracteres y máximo 50.</div>
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-2">
+            <button type="submit" class="btn btn-success btn-lg">Enviar</button>
+          </div>
         </form>
       </div>
     </section>
   </main>
-  <footer class="py-4 px-2">
-    <p class="text-center">
+  <footer class="py-4 px-2 bg-success" style="--bs-bg-opacity: .8;">
+    <p class="text-center text-white">
       Práctica realizada por
       <a
         href="https://www.linkedin.com/in/maria-eugenia-costa/"
         target="_blank"
+        class="text-white text-uppercase fw-bold"
         >María Eugenia Costa</a
       >
     </p>

@@ -62,16 +62,22 @@
     </section>
     <section class="row">
       <div class="col col-lg-8 mx-auto my-5">
-        <form class="row bg-success py-5 px-2" style="--bs-bg-opacity: .1;">
+        <form class="row bg-success py-5 px-2 need-validation" style="--bs-bg-opacity: .1;" novalidate>
           <div class="col-12 col-md-6 mb-4">
             <label for="inputFirstName" class="form-label">Nombre:</label>
             <input type="text" class="form-control form-control-lg" id="inputFirstName" aria-describedby="firstNameHelp" required minlength="3" maxlength="50">
-            <div id="firstNameHelp" class="form-text">Ingresa tu nombre en la casilla de arriba. Mínimo 3 caracteres y máximo 50.</div>
+            <div id="firstNameHelp" class="form-text">Ingresa tu nombre en la casilla de arriba.</div>
+            <div class="invalid-feedback">
+              <img width="30" height="30" src="https://img.icons8.com/ios/30/000000/error--v1.png" alt="error icon"/> Mínimo 3 caracteres y máximo 50.
+            </div>
           </div>
           <div class="col-12 col-md-6 mb-4">
             <label for="inputLastName" class="form-label">Apellido:</label>
             <input type="text" class="form-control form-control-lg" id="inputLastName" aria-describedby="nameHelp" required minlength="3" maxlength="50">
-            <div id="nameHelp" class="form-text">Ingresa tu apellido en la casilla de arriba. Mínimo 3 caracteres y máximo 50.</div>
+            <div id="nameHelp" class="form-text">Ingresa tu apellido en la casilla de arriba.</div>
+            <div class="invalid-feedback">
+              <img width="30" height="30" src="https://img.icons8.com/ios/30/000000/error--v1.png" alt="error icon"/> Mínimo 3 caracteres y máximo 50.
+            </div>
           </div>
           <div class="mb-4">
             <label for="inputEmail" class="form-label">Correo electrónico:</label>
@@ -86,7 +92,10 @@
           <div class="col-12 col-md-6 mb-4">
             <label for="inputNationality" class="form-label">Nacionalidad:</label>
             <input type="text" class="form-control form-control-lg" id="inputNationality" aria-describedby="nationalityHelp" required minlength="3" maxlength="50">
-            <div id="nationalityHelp" class="form-text">Ingresa tu nacionalidad en la casilla de arriba. Mínimo 3 caracteres y máximo 50.</div>
+            <div id="nationalityHelp" class="form-text">Ingresa tu nacionalidad en la casilla de arriba.</div>
+            <div class="invalid-feedback">
+              <img width="30" height="30" src="https://img.icons8.com/ios/30/000000/error--v1.png" alt="error icon"/> Mínimo 3 caracteres y máximo 50.
+            </div>
           </div>
           <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-2">
             <button type="submit" class="btn btn-success btn-lg">Enviar</button>

@@ -30,6 +30,11 @@
           // If validation it's ok, prevent default submit
           event.preventDefault();
 
+          // Get the submit button and change its text
+          const submitButton = form.querySelector('button[type="submit"]');
+          submitButton.textContent = "Enviando...";
+          submitButton.disabled = true;
+
           // Send data
           fetch("https://formsubmit.co/ajax/costamariaeugenia1@gmail.com", {
             method: "POST",
@@ -47,19 +52,25 @@
             .then((response) => response.json())
             .then((data) => {
               if (data.success) {
-                alert.innerHTML = `<p class="alert alert-success"><svg class="bi flex-shrink-0 me-2" role="img" aria-label="Success:"><use xlink:href="#check-circle-fill"/></svg> Formulario enviado</p>`;
+                alert.innerHTML = `<p class="alert alert-success"> Formulario enviado</p>`;
                 form.reset();
                 form.classList.remove("was-validated");
                 clearAlert();
               } else {
-                alert.innerHTML = `<p class="alert alert-danger"><svg class="bi flex-shrink-0 me-2" role="img" aria-label="Danger:"><use xlink:href="#exclamation-triangle-fill"/></svg> Hubo un error al enviar el formulario</p>`;
+                alert.innerHTML = `<p class="alert alert-danger"> Hubo un error al enviar el formulario</p>`;
                 clearAlert();
               }
             })
             .catch((error) => {
-              console.error("Error:", error);
-              alert.innerHTML = `<p class="alert alert-danger"><svg class="bi flex-shrink-0 me-2" role="img" aria-label="Danger:"><use xlink:href="#exclamation-triangle-fill"/></svg> Hubo un error al enviar el formulario</p>`;
-              clearAlert();
+              if (error) {
+                alert.innerHTML = `<p class="alert alert-danger"> Hubo un error al enviar el formulario</p>`;
+                clearAlert();
+              }
+            })
+            .finally(() => {
+              // Restore the button text and re-enable it
+              submitButton.textContent = "Enviar";
+              submitButton.disabled = false;
             });
         }
 

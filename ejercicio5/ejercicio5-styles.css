@@ -30,6 +30,9 @@ footer a {
 
 main {
   padding: 2.75rem 2.25rem;
+  min-height: 85vh;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 p {
@@ -44,4 +47,21 @@ ol {
 
 li {
   padding-bottom: 0.75rem;
+}
+
+hr {
+  margin: 1.5rem 0rem;
+}
+
+/** Table **/
+table, 
+th, 
+td {
+  border: 1px solid var(--primary);
+  border-collapse: collapse;
+}
+
+th, 
+td {
+  padding: 8px 12px;
 }

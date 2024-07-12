@@ -10,7 +10,11 @@
   const emailInput = document.getElementById("inputEmail");
   const birthDateInput = document.getElementById("inputBirthDate");
   const nationalityInput = document.getElementById("inputNationality");
+  // For the alert message
   const alert = document.getElementById("liveAlertPlaceholder");
+  // For the theme button
+  const themeButton = document.getElementById("theme");
+  const htmlElement = document.querySelector("html");
 
   const clearAlert = () => {
     setTimeout(() => {
@@ -18,7 +22,7 @@
     }, 5000);
   };
 
-  // Loop over them and prevent submission
+  // Loop over them and prevent submission, if data it's ok send data, if not show alert error
   Array.from(forms).forEach((form) => {
     form.addEventListener(
       "submit",
@@ -78,5 +82,17 @@
       },
       false
     );
+  });
+
+  // Theme toggle functionality
+  themeButton.addEventListener("click", () => {
+    const currentTheme = htmlElement.getAttribute("data-bs-theme");
+    if (currentTheme === "light") {
+      htmlElement.setAttribute("data-bs-theme", "dark");
+      themeButton.textContent = "Modo claro";
+    } else {
+      htmlElement.setAttribute("data-bs-theme", "light");
+      themeButton.textContent = "Modo oscuro";
+    }
   });
 })();

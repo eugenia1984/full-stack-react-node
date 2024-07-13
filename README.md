@@ -2,9 +2,7 @@
 
 Bienvenidos a mis ejercicios de práctica del **Curso Full Stack React / Node** de CILSA.
 
-
 ---
-
 
 ## <img width="34" height="34" src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/34/external-note-pad-user-interface-flatart-icons-flat-flatarticons.png" alt="note pad"/> ¿Qué se va a ver en el mismo?
 

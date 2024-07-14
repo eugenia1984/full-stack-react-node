@@ -6,6 +6,7 @@ Bienvenidos a mis ejercicios de práctica del **Curso Full Stack React / Node** 
 
 ## <img width="34" height="34" src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/34/external-note-pad-user-interface-flatart-icons-flat-flatarticons.png" alt="note pad"/> ¿Qué se va a ver en el mismo?
 
+
 ### <img width="30" height="30" src="https://img.icons8.com/clouds/30/1.png" alt="1"/> Primera parte del curso
 
 <img width="28" height="28" src="https://img.icons8.com/emoji/28/check-mark-button-emoji.png" alt="check mark"/> Clase 0: Introducción al curso, recomendaciones, nivelación

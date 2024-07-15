@@ -62,8 +62,12 @@
     </header>
     <section class="container my-5">
       <section class="row justify-content-end">
-        <section class="col-auto ">
-          <button type="button" id="theme" class="btn btn-outline-success btn-lg">
+        <section class="col-auto">
+          <button
+            type="button"
+            id="theme"
+            class="btn btn-outline-success btn-lg"
+          >
             Modo oscuro
           </button>
         </section>
@@ -93,6 +97,8 @@
                 required
                 minlength="3"
                 maxlength="50"
+                pattern="^[A-Za-zÁÉÍÓÚáéíóúÑñ]+$"
+                title="Solo se permiten letras, incluyendo letras con acentos y la letra Ñ"
               />
               <div id="firstNameHelp" class="form-text">
                 Ingresa tu nombre en la casilla de arriba.
@@ -113,12 +119,14 @@
                 type="text"
                 class="form-control form-control-lg"
                 id="inputLastName"
-                aria-describedby="nameHelp"
+                aria-describedby="lastNameHelp"
                 required
                 minlength="3"
                 maxlength="50"
+                pattern="^[A-Za-zÁÉÍÓÚáéíóúÑñ]+$"
+                title="Solo se permiten letras, incluyendo letras con acentos y la letra Ñ"
               />
-              <div id="nameHelp" class="form-text">
+              <div id="lastNameHelp" class="form-text">
                 Ingresa tu apellido en la casilla de arriba.
               </div>
               <div class="invalid-feedback">
@@ -164,7 +172,7 @@
                 class="form-control form-control-lg"
                 id="inputBirthDate"
                 aria-describedby="birthDateHelp"
-                min="1911-01-01" 
+                min="1911-01-01"
                 required
               />
               <div id="birthDateHelp" class="form-text">
@@ -192,6 +200,8 @@
                 required
                 minlength="3"
                 maxlength="50"
+                pattern="^[A-Za-zÁÉÍÓÚáéíóúÑñ]+$"
+                title="Solo se permiten letras, incluyendo letras con acentos y la letra Ñ"
               />
               <div id="nationalityHelp" class="form-text">
                 Ingresa tu nacionalidad en la casilla de arriba.

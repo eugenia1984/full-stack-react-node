@@ -17,7 +17,7 @@ Bienvenidos a mis ejercicios de práctica del **Curso Full Stack React / Node** 
 
 <img width="28" height="28" src="https://img.icons8.com/emoji/28/check-mark-button-emoji.png" alt="check mark"/>  Clase 3: Introducción a Git
 
-- Clase 4-5: Introducción a Bootstrap
+- <img width="28" height="28" src="https://img.icons8.com/emoji/28/check-mark-button-emoji.png" alt="check mark"/> Clase 4-5: Introducción a Bootstrap
 
 - Clase 6: **Trabajo integrador**    
 
@@ -92,5 +92,25 @@ Bienvenidos a mis ejercicios de práctica del **Curso Full Stack React / Node** 
 3. Explorar la posibilidad de pensar en 3 resoluciones: notebook, Tablet y celular de 7”
 
 -> [En este link pueden ver la resolución del ejercicio](https://eugenia1984.github.io/full-stack-react-node/ejercicio6/index.html)
+
+---
+
+- **Quinto ejercicio**:
+
+-Tarea en duplas: **Creación de una página de perfil**.
+  
+-Crear una página utilizando Bootstrap y los elementos que hemos visto durante las últimas dos clases.
+
+-La página debe incluir lo siguiente:
+
+**Barra de Navegación**: utiliza la barra de navegación de Bootstrap para crear un menú simple con al menos tres secciones: Inicio, Perfil, y Contacto.
+
+**Carrusel de Imágenes**: agrega un carrusel con al menos tres imágenes representativas en la sección de "Inicio". Utiliza las clases de Bootstrap para el carrusel y deben asegurarse de incluir controles de navegación.
+
+**Tarjeta de perfil**: En la sección de "Perfil", deben crear una tarjeta con una imagen de perfil, tu nombre como título y una breve descripción acerca de tu persona en el cuerpo de la tarjeta. Pueden agregar un botón para ver más información.
+
+**Formulario de Contacto**: en la sección de "Contacto", deben utilizar un formulario básico de Bootstrap con campos para Nombre, Correo Electrónico y Mensaje. A su vez, deben agregar un botón de enviar con el estilo de Bootstrap.
+
+-Importante: deben asegurarse que la página sea responsiva utilizando las clases de grid de Bootstrap para distribuir los elementos correctamente en diferentes tamaños de pantalla.
 
 ---

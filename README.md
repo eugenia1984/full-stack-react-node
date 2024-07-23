@@ -115,7 +115,7 @@ Bienvenidos a mis ejercicios de práctica del **Curso Full Stack React / Node** 
 
 -Importante: deben asegurarse que la página sea responsiva utilizando las clases de grid de Bootstrap para distribuir los elementos correctamente en diferentes tamaños de pantalla.
 
--> [En este link pueden ver la resolución del ejercicio](https://github.com/eugenia1984/profile-page) y [aca la página](eugenia1984.github.io/profile-page/)
+-> [En este link pueden ver la resolución del ejercicio - código-]((https://github.com/eugenia1984/profile-page) y [aca la página](https://eugenia1984.github.io/profile-page/)
 
 ---
 

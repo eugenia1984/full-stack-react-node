@@ -21,7 +21,7 @@ Bienvenidos a mis ejercicios de práctica del **Curso Full Stack React / Node** 
 
 <img width="28" height="28" src="https://img.icons8.com/emoji/28/check-mark-button-emoji.png" alt="check mark"/> Clase 4-5: Introducción a Bootstrap
 
-- Clase 6: **Trabajo integrador**    
+<img width="28" height="28" src="https://img.icons8.com/emoji/28/check-mark-button-emoji.png" alt="check mark"/> Clase 6: **Trabajo integrador**    
 
 ### <img width="30" height="30" src="https://img.icons8.com/clouds/30/2--v2.png" alt="2"/> Segunda parte del curso
 

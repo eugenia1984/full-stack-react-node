@@ -146,4 +146,10 @@ Bienvenidos a mis ejercicios de práctica del **Curso Full Stack React / Node** 
 - Documentación del código que explique la estructura del proyecto, las decisiones de diseño y las funcionalidades implementadas.
 - Implementación de Git para el control de versiones del código y la colaboración entre los miembros del equipo.
 
+-> [En este link pueden ver la resolución del ejercicio - código-](https://github.com/eugenia1984/todo-para-tu-compu) y [aca la página](https://eugenia1984.github.io/todo-para-tu-compu/)
+
+---
+
+## En la carpeta `notas` dejo algunas cosas de teorias vistas
+
 ---

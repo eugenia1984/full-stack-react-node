@@ -25,7 +25,7 @@ Bienvenidos a mis ejercicios de práctica del **Curso Full Stack React / Node** 
 
 ### <img width="30" height="30" src="https://img.icons8.com/clouds/30/2--v2.png" alt="2"/> Segunda parte del curso
 
-- Clase 7: Introducción a la Gestión de proyectos / Desarrollo de Webinar con empresas
+<img width="28" height="28" src="https://img.icons8.com/emoji/28/check-mark-button-emoji.png" alt="check mark"/> Clase 7: Introducción a la Gestión de proyectos / Desarrollo de Webinar con empresas
 
 - Clase 8: Metodologías ágiles de Desarrollo / Desarrollo de webinar con empresas
 

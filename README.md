@@ -156,6 +156,13 @@ Bienvenidos a mis ejercicios de práctica del **Curso Full Stack React / Node** 
 
 ---
 
-## En la carpeta `notas` dejo algunas cosas de teorias vistas
+## `notas`
+
+En la carpeta `notas` dejo algunas cosas de teorias vistas, sobre los temas:
+
+
+- Gestión de proyectos
+
+-  Base de datos
 
 ---

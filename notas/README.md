@@ -5,7 +5,7 @@ Aca dejo algunas cosas que nos brindarn como material de lectura que me parece i
 ---
 ---
 
-## CLASE 8: GESTIÓN DE PROYECTOS
+# GESTIÓN DE PROYECTOS
 
 ### Objetivos de la clase
 
@@ -180,5 +180,107 @@ El cierre del proyecto contempla la entrega del producto junto con su documentac
 • **Entrega**: se asegura que todos los entregables cumplen con los requisitos del cliente.
 
 • **Documentación**: se proporciona toda la documentación necesaria para el uso del producto final.
+
+---
+---
+
+# BASE DE DATOS
+
+
+### ¿ Que es una base de datos?
+
+Una base de datos es **un conjunto de datos pertenecientes a un mismo contexto y almacenados sistemáticamente para su posterior uso**. 
+
+En este sentido; una biblioteca puede considerarse una base de datos compuesta en su mayoría por documentos y textos impresos en papel e indexados para su consulta. Actualmente, y debido al desarrollo tecnológico de campos como la informática y la electrónica, la mayoría de las bases de datos están en formato digital, siendo este un componente electrónico, por tanto, se ha desarrollado y se ofrece un amplio rango de soluciones al problema del almacenamiento de datos.
+
+La base de datos más simple es un **archivo texto**, correspondiendo a una **tabla**, a donde los campos son **delimitados por un carácter (como una coma) o por posición (tamaño fijo)**.
+
+Existen varios programas profesionales que permiten manejar de bases de datos que contienen varias tablas relacionadas. Existen programas autónomos, que se pueden ejecutar en una misma computadora, como **MS Access**, y otros que funcionan como cliente-servidor, como **MySQL**, **Oracle**, **Firebird**, **DB2**, **MS SQL Servidor** entre otros.
+
+--- 
+
+### Componentes de una base de datos
+
+Los componentes de base de una base de datos son las **tablas**, que contienen **registros** (líneas) hechos de **campos** (columnas). Cada campo es de un tipo definido, y todos los registros de una misma tabla tienen los mismos campos con valores propias.
+
+Las tablas están guardadas en **archivos**. Dependiendo de la base de datos, un archivo puede contener varias tablas o no, y/o una tabla puede extender sobre varios archivos o no.
+
+--- 
+
+### ¿Para qué sirve una base de datos?
+
+Una base de datos permite almacenar gran número de información de una forma organizada para su futura consulta, realización de búsquedas, nuevo ingreso de datos, etc. Todo esto lo permite realizar de una forma rápida y simple desde un ordenador.
+
+--- 
+
+### Ventajas y desventajas de una base de datos
+
+- **Ventajas**
+
+1. Las bases de datos permiten obtener información en forma más sencilla.
+
+2. Obtener información estructurada.
+
+3.  Compartir información en forma simultánea con otros usuarios o con otras bases de datos.
+
+4. Facilita la estandarización de procesos, nombres de registros, etc.
+
+5. Permite controlar la duplicidad, triplicidad, etc. de almacenamiento de espacio en disco.
+
+6. Permite la centralización de datos y Permite la unificación de datos.
+
+7. Seguridad e integridad de información mediante validación de usuarios.
+
+8. Creación de diferentes niveles de seguridad.
+
+9. Validación de condiciones de entrada de registros (lo que permite controlar errores humanos en el ingreso de datos).
+
+10. Aumenta la productividad (no se debe preocupar por la organización de los datos ni de la validación).
+
+11. Las bases de datos son independientes de los programas  y/o aplicaciones (por lo que un cambio en la estructura de los programas o en su código no afecta la a la DB, y viceversa).
+
+12. Las bases de datos son modificables en su estructura, por lo que fácilmente podemos adicionar nueva información a un registro, nuevas tablas, etc.
+
+ 
+- **Desventajas**
+
+1. Tamaño, espacio. Una BD suele requerir mucho espacio en disco, suelen volverse pesadas.
+
+2. Son un producto complejo, por lo que no toda persona será capaz de manipularla y/o ponerse al cargo de su mantenimiento.
+
+3. Costo. Algunos gestores y productos de bases de datos suelen ser costosos. Tales como Oracle, DB2, Etc.
+
+4. Requieren de capacitación, asesoría y acompañamiento para enseñar su manejo.
+
+5. Se requiere de una persona para que esté al tanto del mantenimiento o de fallos.
+
+6. Cuando la BD crece mucho puede llegar a ponerse lenta, lo que afecta las búsquedas y la recuperación de información.
+
+7. Un fallo en la BD afecta a todo el entorno, máxime si es una DB central y varias aplicaciones recuperan información desde la misma base de datos.
+
+8. Si la BD se llega a corromper es complejo repararla y volverla a su anterior estado.
+
+9. Ataques remotos, las BDs digitales siempre son y serán presa de ataques remotos por parte de hackers, crackers, troyanos y virus maliciosos. Estos eventos pueden suceder en que el atacante ingrese al servidor de base de datos, o a la BD principal y robe, modifique o elimine información crítica ubicada en ese medio.
+
+ 
+
+Con los servidores corren también uno o varios servicios, dependiendo de la base de datos.
+
+--- 
+
+### Cliente/Servidor
+
+Ciertas bases de datos, como MS-Access, están diseñadas para funcionar sola, o con pocos clientes. Los archivos de la base de datos pueden ser compartido entre varios clientes, pero cada cliente tiene que manejar los archivos enteros. Si se hace una encuesta sobre una tabla, tienen que leer toda la tabla y luego filtrar, lo que ocasiona mucho tráfico de red, y muchos IO en el disco.
+
+Con las bases de datos de tipo servidor, todos los clientes piden los datos al servidor que les regresa solo el resultado de la encuesta. El servidor hace el trabajo en local y devuelve solo la respuesta, lo que es mucho más eficiente. También se pueden utilizar pools des conexiones para disminuir la necesidad de abrir y cerrar conexiones, y disminuir el número de conexiones concurrentes necesarias.
+
+
+Se pueden clasificar las bases de datos en tres categorías:
+
+•  Las **pequeñas, sin servidor**: para max 10 clientes concurrentes. Ejemplo: archivo texto, MS-Access.
+
+•  Las **medianas, con servidor**: para hasta 50 clientes concurrentes. Ejemplo: Firebird.
+
+•  Las **grandes, con servidor**: para hasta miles de clientes concurrentes. Ejemplo: MySQL, Oracle, SQL Server.
 
 ---

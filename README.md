@@ -166,3 +166,9 @@ En la carpeta `notas` dejo algunas cosas de teorias vistas, sobre los temas:
 -  Base de datos
 
 ---
+
+## Glosario
+
+En [GLOSARIO](https://github.com/eugenia1984/full-stack-react-node/blob/main/glosario.md) podran encontrar el glosario con algunos términos y también el significado de algunas **Abreviaciones**.
+
+---

@@ -284,3 +284,158 @@ Se pueden clasificar las bases de datos en tres categorías:
 •  Las **grandes, con servidor**: para hasta miles de clientes concurrentes. Ejemplo: MySQL, Oracle, SQL Server.
 
 ---
+---
+
+# METODOLOGÍAS ÁGILES
+
+
+## Objetivos de la clase
+   
+• Comprender los principios y valores fundamentales de las metodologías ágiles.
+
+• Conocer las principales metodologías ágiles utilizadas en el desarrollo de software.
+
+    
+• Entender cómo aplicar los principios ágiles en la gestión de proyectos de software.
+
+---
+
+## Preguntas para guiar la lectura
+
+Les proponemos algunas preguntas que usaremos de disparadores para orientar la lectura:
+
+• ¿Qué son las metodologías ágiles y cómo se diferencian de los enfoques tradicionales de gestión de proyectos?
+
+• ¿Cuáles son los valores y principios fundamentales del Manifiesto Ágil, y cómo influyen en la forma en que se gestionan los proyectos de software?
+
+• ¿Qué roles se definen en Scrum y qué responsabilidades tiene cada uno para asegurar el éxito del proyecto?
+
+• ¿Cuáles son los principales desafíos al implementar metodologías ágiles y cómo pueden las organizaciones manejar el cambio para superar estos obstáculos?
+
+---
+
+## Introducción a las metodologías ágiles
+
+Las metodologías ágiles emergieron como una respuesta a las limitaciones de los enfoques tradicionales de gestión de proyectos, como el modelo en cascada. Estas metodologías se centran en una mayor flexibilidad y adaptación a los cambios, en contraposición a los métodos rígidos y secuenciales de desarrollo. La esencia de las metodologías ágiles es la capacidad de entregar valor de manera continua y adaptarse rápidamente a los cambios en los requisitos del cliente.
+
+## Definición y evolución
+
+Las metodologías ágiles se basan en enfoques iterativos e incrementales para el desarrollo de software. A diferencia de los métodos tradicionales, que suelen seguir un enfoque lineal y fijo, las metodologías ágiles permiten ajustes constantes a lo largo del ciclo de vida del proyecto. Esta evolución comenzó a ganar tracción a principios de los años 2000, culminando en la publicación del Manifiesto Ágil en 2001, que consolidó los principios y valores que guiarían a estas metodologías.
+
+## Principios y valores del manifiesto ágil
+
+El Manifiesto Ágil se fundamenta en cuatro valores clave que priorizan la comunicación, la colaboración y la adaptabilidad. Además, establece doce principios que promueven la entrega continua de software funcional, la aceptación del cambio, la colaboración entre equipos y la reflexión constante para mejorar los procesos. Estos valores y principios son la base sobre la que se construyen las metodologías ágiles y su enfoque hacia un desarrollo más dinámico y receptivo.
+
+## Ventajas y beneficios
+
+Adoptar metodologías ágiles ofrece múltiples beneficios, como una mayor flexibilidad para adaptarse a los cambios, una mejora en la colaboración y comunicación entre los miembros del equipo y una entrega continua de valor al cliente. Las iteraciones cortas permiten recibir retroalimentación temprana y ajustar el producto según sea necesario, lo que contribuye a la satisfacción del cliente y a la calidad del producto final.
+
+---
+
+## Principales metodologías ágiles
+
+Las metodologías ágiles han evolucionado en diversos enfoques específicos, cada uno con sus propias prácticas y técnicas. Entre las más destacadas se encuentran Scrum, Kanban, Extreme Programming (XP) y Lean Software Development.
+Cada una de estas metodologías tiene su propia forma de abordar el desarrollo de software, pero todas comparten los principios fundamentales del Manifiesto Ágil.
+
+### Scrum
+
+Es una de las metodologías ágiles más populares y se enfoca en la gestión de proyectos mediante ciclos iterativos denominados sprints. Este enfoque organiza el trabajo en incrementos cortos y manejables, facilitando la planificación y la revisión continua. Scrum define roles específicos, eventos y artefactos que ayudan a estructurar el proceso y garantizar que el equipo esté alineado con los objetivos del proyecto.
+
+### Kanban
+
+Es una metodología ágil que se centra en la visualización del trabajo y la gestión del flujo. Utiliza un tablero Kanban para mostrar el estado de las tareas y emplea límites de trabajo en progreso (WIP) para mejorar la eficiencia del flujo de trabajo. La filosofía de Kanban se basa en la mejora continua y la adaptación a las necesidades cambiantes del proyecto.
+
+### Extreme Programming (XP)
+
+Es una metodología que se enfoca en mejorar la calidad del software y la satisfacción del cliente a través de prácticas técnicas rigurosas. XP promueve valores como la comunicación y la simplicidad, y utiliza prácticas como el desarrollo orientado a pruebas (TDD) y la programación en parejas para asegurar un código limpio y funcional.
+
+### Lean Software Development
+
+Aplica principios del pensamiento lean al desarrollo de software. Se centra en eliminar desperdicios, reducir el tiempo de entrega y fomentar el aprendizaje continuo. La metodología busca optimizar el proceso de desarrollo al eliminar actividades que no aportan valor y mejorar la eficiencia general del equipo.
+
+---
+
+## Roles en metodologías ágiles
+
+En las metodologías ágiles, los roles están claramente definidos para garantizar una colaboración efectiva y una entrega continua de valor. Cada rol tiene responsabilidades específicas que contribuyen al éxito del proyecto, y una comprensión clara de estos roles es crucial para el buen funcionamiento del equipo.
+
+### Scrum Master
+
+Actúa como un facilitador dentro del equipo Scrum, asegurando que el proceso ágil se lleve a cabo de manera efectiva. Su principal responsabilidad es eliminar impedimentos que puedan obstaculizar el progreso del equipo y garantizar que se sigan las prácticas ágiles establecidas. El Scrum Master también facilita las reuniones y ayuda al equipo a mejorar continuamente su proceso.
+
+### Product Owner
+
+Es el representante del cliente y el responsable de gestionar el backlog del producto. Este rol implica priorizar los requisitos, definir las historias de usuario y asegurar que el equipo entienda claramente las expectativas del cliente. El Product Owner trabaja estrechamente con el equipo de desarrollo para garantizar que el producto entregado cumpla con los requisitos y añada valor al cliente.
+
+### Equipo de desarrollo
+
+Es el grupo encargado de diseñar, construir y probar el software. Este equipo es autoorganizado y multifuncional, lo que significa que todos los miembros deben colaborar y asumir responsabilidad compartida por el trabajo realizado. El equipo trabaja en ciclos iterativos para entregar incrementos funcionales del producto, adaptándose a los cambios y mejorando continuamente.
+
+---
+
+## Prácticas y técnicas ágiles
+
+Las metodologías ágiles utilizan una serie de prácticas y técnicas para asegurar que el desarrollo se realice de manera efectiva y eficiente. Estas prácticas ayudan a mantener al equipo enfocado, facilitan la comunicación y garantizan la calidad del producto.
+
+### Planificación de Iteraciones
+
+En Scrum, la planificación de iteraciones se realiza durante el Sprint Planning, donde el equipo define qué tareas se abordarán en el próximo sprint. Esta planificación es crucial para establecer objetivos claros y garantizar que el equipo se enfoque en entregar valor en cada ciclo.
+
+### Reuniones diarias de seguimiento
+
+Las reuniones diarias, o Daily Scrums, son breves encuentros donde el equipo revisa el progreso, identifica obstáculos y planifica las actividades del día. Estas reuniones fomentan la comunicación constante y permiten abordar problemas de manera oportuna.
+
+### Gestión del backlog
+
+La gestión del backlog implica mantener y priorizar la lista de tareas y requisitos del producto. El Product Owner es responsable de gestionar el backlog del producto y el backlog del sprint, asegurando que las tareas más importantes se aborden primero y que el equipo esté alineado con las prioridades.
+
+### Estimación ágil
+
+Las técnicas de estimación ágil, como el Planning Poker y los Story Points, ayudan al equipo a estimar el esfuerzo necesario para completar las tareas. Estas técnicas permiten una estimación colaborativa y ajustada, facilitando la planificación y el seguimiento del progreso.
+
+
+### Desarrollo Orientado a Pruebas (TDD)
+
+El Desarrollo Orientado a Pruebas (TDD) implica escribir pruebas antes de desarrollar el código. Esta práctica asegura que el código cumple con los requisitos y ayuda a mantener una alta calidad del software.
+
+### Integración y entrega continua
+
+La integración continua implica integrar el código frecuentemente en un repositorio compartido para detectar y resolver problemas temprano. La entrega continua lleva este concepto un paso más allá al automatizar el despliegue del software en entornos de producción, garantizando que el producto esté siempre listo para su uso.
+
+### Ciclo de vida del proyecto ágil
+
+El ciclo de vida de un proyecto ágil se basa en la entrega continua y la adaptación constante. A diferencia de los enfoques tradicionales, las metodologías ágiles dividen el proyecto en iteraciones cortas, permitiendo una respuesta rápida a los cambios y una mejora continua del producto.
+
+### Iteraciones cortas y entregas incrementales
+
+En las metodologías ágiles, el trabajo se organiza en iteraciones cortas que resultan en entregas incrementales de valor. Cada iteración proporciona una parte funcional del producto que puede ser revisada y ajustada según el feedback recibido, facilitando una evolución continua del proyecto.
+
+### Planificación adaptativa
+
+La planificación en metodologías ágiles es flexible y adaptativa. En lugar de seguir un plan fijo, los equipos ajustan el enfoque y las prioridades basándose en la retroalimentación y los cambios en los requisitos. Esto permite una mayor capacidad de respuesta a las necesidades cambiantes del cliente y del mercado.
+
+
+### Monitoreo y adaptación continua
+
+El monitoreo constante del progreso y la adaptación del proceso son fundamentales en las metodologías ágiles. Los equipos revisan regularmente el trabajo realizado y ajustan sus prácticas y objetivos para mejorar continuamente el producto y el proceso de desarrollo.
+
+
+### Desafíos y consideraciones
+
+La implementación de metodologías ágiles puede presentar varios desafíos, especialmente en organizaciones que están acostumbradas a enfoques tradicionales de gestión de proyectos. Abordar estos desafíos es crucial para lograr una transición exitosa y maximizar los beneficios de las metodologías ágiles.
+
+### Obstáculos comunes
+
+Algunos obstáculos comunes en la implementación de metodologías ágiles incluyen la resistencia al cambio, la falta de experiencia con enfoques ágiles y las dificultades en la comunicación y colaboración. Superar estos desafíos requiere una gestión efectiva del cambio y un compromiso con la formación y el desarrollo de habilidades.
+
+### Gestión de expectativas de los stakeholders
+
+Es importante gestionar las expectativas de los stakeholders para asegurar que estén alineadas con la realidad del proyecto. La comunicación constante y la transparencia en cuanto a los avances y los desafíos son clave para mantener la la confianza y el apoyo de los interesados.
+
+### Manejo del cambio organizacional y cultural
+
+La transición a metodologías ágiles a menudo requiere un cambio cultural significativo dentro de la organización. Es fundamental apoyar a los equipos en el proceso de adaptación y fomentar una cultura que valore la colaboración, la flexibilidad y la mejora continua.
+
+
+---
+---

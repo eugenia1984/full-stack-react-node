@@ -163,7 +163,9 @@ En la carpeta `notas` dejo algunas cosas de teorias vistas, sobre los temas:
 
 - Gestión de proyectos
 
--  Base de datos
+- Base de datos
+
+- Metodologías ágiles
 
 ---
 

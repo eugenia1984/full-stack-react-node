@@ -26,7 +26,7 @@ Bienvenidos a mis ejercicios de práctica del **Curso Full Stack React / Node** 
 
 <img width="28" height="28" src="https://img.icons8.com/emoji/28/check-mark-button-emoji.png" alt="check mark"/> Clase 7: Introducción a la Gestión de proyectos / Desarrollo de Webinar con empresas
 
-- Clase 8: Metodologías ágiles de Desarrollo / Desarrollo de webinar con empresas
+<img width="28" height="28" src="https://img.icons8.com/emoji/28/check-mark-button-emoji.png" alt="check mark"/> Clase 8: Metodologías ágiles de Desarrollo / Desarrollo de webinar con empresas
 
 - Clase 9 - 10 - 11: Introducción a las bases de datos
 
@@ -158,7 +158,7 @@ Bienvenidos a mis ejercicios de práctica del **Curso Full Stack React / Node** 
 
 ## `notas`
 
-En la carpeta `notas` dejo algunas cosas de teorias vistas, sobre los temas:
+En la carpeta [`notas`](https://github.com/eugenia1984/full-stack-react-node/tree/main/notas) dejo algunas cosas de teorias vistas, sobre los temas:
 
 
 - Gestión de proyectos

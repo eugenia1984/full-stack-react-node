@@ -174,3 +174,11 @@ En la carpeta [`notas`](https://github.com/eugenia1984/full-stack-react-node/tre
 En [GLOSARIO](https://github.com/eugenia1984/full-stack-react-node/blob/main/glosario.md) podran encontrar el glosario con algunos términos y también el significado de algunas **Abreviaciones**.
 
 ---
+
+## Notas (2)
+
+Agradezco tu interés en este repositorio ⌨️ creado con ❤️ por [María Eugenia Costa](https://github.com/eugenia1984) 😊.
+
+Me puedes seguir en [LinkedIn - maria-eugenia-costa](https://www.linkedin.com/in/maria-eugenia-costa/).
+
+---
